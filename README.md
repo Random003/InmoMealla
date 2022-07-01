@@ -21,7 +21,7 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 
 ## **GitHub Pages:**
 
-- Para poder ver desde GitHub Pages el sitio web por favor dirigirse hacia esta <a href="https://random003.github.io/Inmobiliaria-Mealla/">dirección</a>.
+- Para poder ver desde GitHub Pages el sitio web por favor dirigirse hacia esta <a href="https://random003.github.io/InmoMealla/">dirección</a>.
 
 <br>
 <br>
