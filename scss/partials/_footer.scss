@@ -1,0 +1,41 @@
+/* +++++++++++++++++> */
+/* FOOTER */
+/* +++++++++++ */
+
+/* variables en sas */
+$colorSocial: #969a97;
+$colorSecundario: crimson;
+
+
+#footer {
+    border-top: double grey;
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom,#daa485, white); 
+    #arriba {
+        text-decoration: none;
+        color: $colorSecundario;
+        margin-left: 20px;
+    }
+    .social {
+        text-align: right;
+        padding: 20px;
+        margin-right: 5px;
+         .fa-phone {
+            color: $colorSocial;
+            padding-right: 10px;
+        }
+        
+        .fa-envelope {
+            color: $colorSocial;
+        }
+        
+        .fa-whatsapp {
+            color: $colorSocial;
+            padding-left: 10px;
+        }
+    }
+    .reservados {
+        text-align: center;
+        margin: 20px;
+    }
+}

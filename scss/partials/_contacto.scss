@@ -1,0 +1,89 @@
+/* Contacto */
+/* +++++++++++ */
+
+main {
+    .text-center {
+        .newTexto {
+            margin: 15px;
+            text-align: center;
+        }
+    }
+
+    .row1 {
+        .formContacto {
+            height: fit-content;
+            width: fit-content;
+            padding: 20px;
+            margin: 40px;
+            border: double brown;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+            @media (max-width: 427px) {
+                padding: 1.5px;
+            }
+
+            
+
+            .textBox {
+                text-align: center;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+            .imputForm {
+                height: 2.5rem;
+                padding: 1rem;
+                outline: none;
+                margin-bottom: 1rem;
+            }
+            .form-control {
+                width: 225px;
+                margin-bottom: 18px;
+            }
+            .contBot {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+        
+        @media (min-width: 1300px) {
+            display: flex;
+        }
+
+    }
+
+    .imgBack {
+        @media (max-width: 427px) {
+            display: none;
+        }
+
+        @media (min-width: 428px) {
+            display: none;
+        }
+
+        @media (min-width: 926px) {
+            display: none;
+        }
+
+        @media (min-width: 1080px) {
+            display: none;
+        }
+
+        @media (min-width: 1300px) {
+            width: 650px;
+            height: 620px;
+            margin-right: 300px;
+            margin-top: 40px;
+            overflow: hidden;
+            display: inline-block;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+        }
+
+        @media (max-width: 1549px) {
+            display: none;
+        }
+    }
+
+}
