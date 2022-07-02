@@ -4,7 +4,7 @@
 
 # **Curso Coderhouse - "JavaScript"**
 
-Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. Comisión 31655.-
+Tema: Sitio web de Inmobiliaria para el curso de JavaScript de Coderhouse. Comisión 31655.-
 
 <br>
 <br>
