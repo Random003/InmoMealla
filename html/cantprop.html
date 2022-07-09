@@ -19,7 +19,7 @@
     <!-- scss -->
     <link rel="stylesheet" href="../css/styleSass.css">
     <!-- Titulo -->
-    <title>Carga de Propiedades</title>
+    <title>Buscador de Propiedades</title>
 </head>
 <body>
     <!-- para que vaya arriba -->
@@ -68,7 +68,7 @@
                         </li>
 
                         <li class="nav-item me-4">
-                            <a class="nav-link" aria-current="page" href="../html/cantprop.html">BUSCADOR</a>
+                            <a class="nav-link active" aria-current="page" href="../html/cantprop.html">BUSCADOR</a>
                         </li>
                   
                     </ul>
@@ -82,38 +82,17 @@
 
     </header>
 
-    
     <main>
-        <br>
-        <article class="text-center">
-            
-                <h4 class="newTexto">
-                    Realice la carga de una propiedad nueva, recuerde que puede agregar las fotos que sean necesarias. Todos los campos son requeridos.
-                </h4>
-            
-        </article>
+        <br><br>
+        <h1 class="text-center fw-bold ">MUCHAS GRACIAS!</h1>
 
-        <!-- Formulario de Carga de Propiedades con Bootstrap -->
+        <div class="col text-center">
+            <button class="container text-center fw-bold" onClick="window.location.reload();">POR FAVOR PRESIONE AQUÍ PARA REALIZAR OTRA BÚSQUEDA DE  PROPIEDADES</button>
+        </div> <br><br>
         
-        <form action="carga.html" method="get" class="formIngresoB mx-auto align-items-center">
-
-            <h1 class="textBox">Cargue la Propiedad</h1>
-            <input class="form-control" type="file" name="picture" multiple accept=".jpg">
-            <input class="imputForm" type="number" placeholder="Precio" name="value" id="value" required><br>
-            <input class="imputForm" type="number" placeholder="Dormitorios" name="bedroom" id="bedroom" required><br>
-            <input class="imputForm" type="text" placeholder="Habitación" name="room" id="room1" required><br>
-            <input class="imputForm" type="text" placeholder="Habitación" name="room" id="room1" required><br>
-            <input class="imputForm" type="text" placeholder="Habitación" name="room" id="room1" required><br>
-            <div>
-                <button type="submit" class="btn btn-primary botBot-enviar">Cargar</button>
-                <button type="reset" class="btn btn-secondary botBot-limpiar">Limpiar</button>
-            </div>
-    
-        </form>
-
         <!-- JS -->
-        <!-- <script src="../js/main.js"></script> -->
-       
+        <script src="../js/cantprop.js"></script>
+
     </main>
 
     <footer id="footer">

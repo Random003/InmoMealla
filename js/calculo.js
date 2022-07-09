@@ -1,6 +1,3 @@
-/* En principio saldria por prompt aqui pero en el futuro colocaria esta funcionalidad luego de que haga log in el usuario y de ahi lo redireccione a un nuevo menu que le permita esto y tambien subir casas y demas funcionalidades. Para fines practicos de la entrega del Ejercicio lo preferi dejar aqui */
-
-
 let totalPago = 0;
 
 let nombreCliente = prompt("Ingrese el nombre del Locador");
@@ -14,7 +11,7 @@ for (let i = 0; i < cantidadProp; i++) {
     totalPago += precioPago;
     let mensaje = "Ingresó un pago sobre la propiedad en calle " + propiedad + " por un valor de $" + precioPago + ".-";
     alert(mensaje);
-    console.log(mensaje);
+    /* console.log(mensaje); */
     
 }
 
