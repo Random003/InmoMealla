@@ -83,7 +83,46 @@
     </header>
 
     <main>
-        <br><br>
+        
+           <!-- Formulario de Carga para Calculo -->
+        
+           <form action="calculo.html" method="get" class="formIngresoB mx-auto align-items-center">
+
+            <h1 class="textBox">Cargue los datos para calcular el valor</h1>
+            <label>Ingrese el nombre del Locador</label>
+            <input class="imputForm" type="text" name="locador" id="locador" required><br>
+            <label>Ingrese la cantidad de propiedades a nombre del Locador</label>
+            <select class="form-control" id="cantProp">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+
+            <label>Ingrese la calle de la propiedad a realizar el pago</label>
+            <input class="imputForm" type="text" name="calle1" id="calle1" required><br>
+            <label>Ingrese el valor del alquiler mensual</label>
+            <input class="imputForm" type="text" name="valMes1" id="valMes1" required><br><br>
+
+            <label>Ingrese la calle de la propiedad a realizar el pago</label>
+            <input class="imputForm" type="text" name="calle2" id="calle2"><br>
+            <label>Ingrese el valor del alquiler mensual</label>
+            <input class="imputForm" type="text" name="valMes2" id="valMes2"><br><br>
+
+            <label>Ingrese la calle de la propiedad a realizar el pago</label>
+            <input class="imputForm" type="text" name="calle3" id="calle3"><br>
+            <label>Ingrese el valor del alquiler mensual</label>
+            <input class="imputForm" type="text" name="valMes3" id="valMes3"><br>
+
+            <div>
+                <button type="submit" class="btn btn-primary botBot-enviar">Calcular</button>
+                <button type="reset" class="btn btn-secondary botBot-limpiar">Limpiar</button>
+            </div>
+    
+        </form>
+
+        <div id="calcRes" class="container text-center fw-bold"></div><br><br>
+        
+        
         <h1 class="text-center fw-bold ">MUCHAS GRACIAS!</h1>
 
         <div class="col text-center">
