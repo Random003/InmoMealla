@@ -86,13 +86,13 @@
         
            <!-- Formulario de Carga para Calculo -->
         
-           <form action="calculo.html" method="get" class="formIngresoB mx-auto align-items-center">
+           <form action="calculo.html" method="submit" class="formIngresoB mx-auto align-items-center" id="formcalculo">
 
             <h1 class="textBox">Cargue los datos para calcular el valor</h1>
             <label>Ingrese el nombre del Locador</label>
             <input class="imputForm" type="text" name="locador" id="locador" required><br>
             <label>Ingrese la cantidad de propiedades a nombre del Locador</label>
-            <select class="form-control" id="cantProp">
+            <select class="form-control" id="cantProp" onChange="console.log('pedo')">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -114,7 +114,7 @@
             <input class="imputForm" type="text" name="valMes3" id="valMes3"><br>
 
             <div>
-                <button type="submit" class="btn btn-primary botBot-enviar">Calcular</button>
+                <button type="submit" class="btn btn-primary botBot-enviar" onclick="captura2()">Calcular</button>
                 <button type="reset" class="btn btn-secondary botBot-limpiar">Limpiar</button>
             </div>
     
