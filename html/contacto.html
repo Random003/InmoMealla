@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- scss -->
     <link rel="stylesheet" href="../css/styleSass.css">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- noty -->
+    <link href="lib/noty.css" rel="stylesheet">
     <!-- Titulo -->
     <title>Contactese con Nosotros</title>
 </head>
@@ -95,7 +99,7 @@
 
         <div class="row1">
             <!-- Formulario de Contacto con Bootstrap -->
-            <form action="contacto.html" method="get" class="formContacto mx-auto align-items-center ">
+            <form method="get" class="formContacto mx-auto align-items-center ">
 
                 <h1 class="textBox">Contactese con nosotros</h1>
                 <label for="nombre">Nombre y Apellido</label>
@@ -115,8 +119,8 @@
                 <label for="mensaje">Escriba su Consulta a Continuación</label>
                 <textarea class="form-control" rows="4" required></textarea>
                 <div class="contBot">
-                    <button class="btn btn-primary botBot-enviar" type="submit">Enviar</button>
-                    <button type="reset" class="btn btn-secondary botBot-limpiar">Limpiar</button>
+                    <button class="btn btn-primary botBot-enviar" type="submit" id="botCont">Enviar</button>
+                    <button type="reset" class="btn btn-secondary botBot-limpiar" id="botCont">Limpiar</button>
                 </div>
         
             </form>
@@ -126,9 +130,20 @@
             </div>
         </div>
 
-        <!-- JS -->
-        <!-- <script src="../js/main.js"></script> -->
+        <button id="botCont">dinoasas</button>
         
+         <!-- Noty -->
+        <script src="lib/noty.js" type="text/javascript"></script>
+
+        <!-- SweetAlert -->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <!-- toastify -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        
+        <!-- JS -->
+        <script src="../js/sweet.js"></script>
+
     </main>
 
     <footer id="footer">

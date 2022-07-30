@@ -21,5 +21,9 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "noty": "^3.2.0-beta-deprecated",
+    "sweetalert2": "^11.4.24"
   }
 }
