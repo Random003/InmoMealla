@@ -152,8 +152,23 @@
             </ul>
         </article>
 
+        <div class="formIngresoB mx-auto align-items-center">
+            <h3 class="textoMain">CONVERSOR DE DIVISAS</h3>
+
+            <div class="divisa">
+                <div class="nombre">Dolar</div>
+                <input class="valor" type="number" value="1" data-cambio="1" step="100" onChange="valorCambiado(this)"/>
+            </div>
+            
+            <div class="divisa">
+                <div class="nombre">Peso</div>
+                <input class="valor" type="number" value="1" id="USD" step="100" onChange="valorCambiado(this)"/>
+            </div>
+          
+        </div>
+
         <!-- JS -->
-        <!-- <script src="js/main.js"></script> -->
+        <script src="js/api.js"></script>
 
     </main>
 
