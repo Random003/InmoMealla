@@ -68,10 +68,11 @@
                         </li>
                   
                     </ul>
-                    <form class="d-flex me-4 m-5">
-                       <input class="form-control me-2 busqueda" type="search" placeholder="Buscar Propiedad" aria-label="Search">
-                       <button class="btn btn-light busqueda" type="submit">Buscar</button>
-                    </form>
+                    
+                    <form class="d-flex me-4 m-5" id="formsearch">
+                        <input class="form-control me-2 busqueda" type="search" id="busca" placeholder="Buscar Propiedad" aria-label="Search">
+                        <button class="btn btn-light busqueda" type="submit" onclick="captura()">Buscar</button>
+                     </form>
                 </div>
             </div>
         </nav>
@@ -85,6 +86,7 @@
         </a>  
 
         <!-- JS -->
+        <script src="../js/cantprop.js"></script>
         <!-- <script src="../js/main.js"></script> -->
            
     </main>

@@ -67,15 +67,15 @@
                             <a class="nav-link" aria-current="page" href="html/calculo.html">CALCULO</a>
                         </li>
 
-                        <li class="nav-item me-4">
+                        <li hidden class="nav-item me-4">
                             <a class="nav-link" aria-current="page" href="html/cantprop.html">BUSCADOR</a>
                         </li>
                   
                     </ul>
-                    <form class="d-flex me-4 m-5">
-                       <input class="form-control me-2 busqueda" type="search" placeholder="Buscar Propiedad" aria-label="Search">
-                       <button class="btn btn-light busqueda" type="submit">Buscar</button>
-                    </form>
+                    <form class="d-flex me-4 m-5" id="formsearch">
+                        <input class="form-control me-2 busqueda" type="search" id="busca" placeholder="Buscar Propiedad" aria-label="Search">
+                        <button class="btn btn-light busqueda" type="submit" onclick="captura()">Buscar</button>
+                     </form>
                 </div>
             </div>
         </nav>
@@ -152,7 +152,7 @@
             </ul>
         </article>
 
-        <div class="formIngresoB mx-auto align-items-center">
+        <div hidden class="formIngresoB mx-auto align-items-center">
             <h3 class="textoMain">CONVERSOR DE DIVISAS</h3>
 
             <div class="divisa">
@@ -169,6 +169,7 @@
 
         <!-- JS -->
         <script src="js/api.js"></script>
+        <script src="js/cantprop.js"></script>
 
     </main>
 
